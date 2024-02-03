@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+
+}
+#hero{
+    background-image: url('IMG_20240203_130923.jpg');
+    height: 650px;
+    width: 100%;
+    background-size: cover;
+
+}
+ul{
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-size: 28px;
+    justify-content: space-evenly;
+    padding-top: 19px;
+    
+    
+    
+}
+ul li{
+    list-style: none;
+}   
+.navbar ul li a{
+    border: 1px solid transparent;
+    border-radius: 10px;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    padding: 10px 33px;
+    
+    
+
+
+}
+.navbar ul li a:hover{
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #9ACD32;
+    color:whitesmoke;
+}
+.content{
+    color: white;
+    display: flex;
+    margin-top: 120px;
+    margin-left: 80px;
+    font-size: 1.8rem;
+    
+}
+.content1{
+    color: rgb(228, 224, 2);
+}
+.content2{
+    font-size: 2.5rem;
+    color:#9ACD32;
+}
+p{
+    margin-left: 10px;
+}
+.navsearch{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #080808;;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.search-input{
+    width: 100%;
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 1.2rem;
+}
+.search-item{
+    width: 200px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #9ACD32;
+    font-size: 1.5rem;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.nav-search:hover{
+    border: 2px solid  #9ACD32;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#about{
+    background-color: #1E1E1E;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    border: 4px solid white;
+}
+img{
+    max-width: 300px;
+    border: 2px solid white;
+    margin-left: 200px;
+    margin-right: 10px;
+    
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.myself{
+    color: white;
+    text-align:left;
+}
+.myself h3{
+    font-size: 2.5rem;
+}
+.myself p{
+    font-size: 1.3rem;
+}
+button{
+    border: 2px solid #9ACD32;
+    background-color: #9ACD32;
+    color: white;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 140px;
+    height: 30px;
+    transition-delay: 4s;
+}
+button:hover {
+    background-color: black;
+    cursor: pointer;
+    
+}
+.web{
+    font-size: 1.7rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#Services{
+    height: 450px;
+    background-color:#30302E;
+    color: white;
+    padding-top: 40px;
+    text-align: center;
+
+}
+#Services h1{
+    font-size: 3rem;
+}
+.boxsection{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.box{
+
+    background-color: #1E1E1E;
+    height: 300px;
+    width: 300px;
+    border: 2px solid white;
+    text-align:center;
+    border-radius: 10px;
+    margin-top: 2rem;
+    
+}
+i{
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+#skills{
+    background-color:#1E1E1E ;
+    height: 200px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hireme{
+    text-align: center;
+}
+
+#contact{
+    background-color:#080808;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #c6fafa;
+
+}
+.footer h1{
+    color: white;
+    text-align: center;
+}
+.logo{
+    text-align: center;
+    
+}
+.logo i{
+    padding-right: 30px;
+}
